@@ -1,0 +1,33 @@
+.add-deduction{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-field{
+width: 212px;
+border-radius: 4px;
+margin: 5px;
+}
+
+.ammount-field{
+    width: 136px;
+    border-radius: 4px;
+    margin: 5px;
+    
+}
+
+.btn-delete{
+    background: #FAFAFA;
+    border: none;
+}
+
+.btn-delete:hover,
+.btn-delete:focus,
+.btn-delete:active,
+.btn-delete:visited {
+  background: #FAFAFA; 
+  color: #FAFAFA; 
+  border: none;
+  outline: none; 
+  box-shadow: none; 
+}

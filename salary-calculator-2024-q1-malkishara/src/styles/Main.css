@@ -1,0 +1,67 @@
+.content{
+    
+    margin-top: 80px;
+}
+
+.calculator-card{
+    height: 450px;
+    overflow-y: auto;
+    background-color: #FAFAFA;
+}
+
+.reset-btn-container{
+    text-align: right;
+
+}
+
+.btn-reset{
+    background: #FAFAFA;
+    color: #0052EA;
+    border: none;
+    
+}
+
+.btn-reset:hover,
+.btn-reset:focus,
+.btn-reset:active,
+.btn-reset:visited {
+  background: #FAFAFA; 
+  color: #0052EA; 
+  border: none;
+  outline: none; 
+  box-shadow: none; 
+}
+
+.calculator-card>h4{
+    color: #0000;
+    font-size: 20px;
+    
+}
+
+.descrip{
+    color: #757575;
+    font-size: 12px;
+}
+
+.btn{
+    background: #FAFAFA;
+    color: #0052EA;
+    border: none;  
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:visited {
+  background: #FAFAFA; 
+  color: #0052EA; 
+  border: none;
+  outline: none; 
+  box-shadow: none; 
+}
+
+.salary-card{
+    height: 450px;
+    background-color: #FAFAFA;
+    overflow-y: auto;
+}

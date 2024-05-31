@@ -1,0 +1,36 @@
+.salary{
+    margin: 20px;
+}
+
+.right{
+    text-align: right;
+    color: #757575;
+}
+
+.left{
+    text-align: left;
+    color: #757575;
+}
+
+.left-part{
+    text-align: left;
+    color: #000000;
+}
+
+.right-part{
+    text-align: right;
+    color: #000000;
+    
+}
+
+.net-salary{
+    margin: 20px;
+}
+
+.epf-etf{
+    margin: 20px;
+}
+
+.ctc{
+    margin: 20px;
+}
