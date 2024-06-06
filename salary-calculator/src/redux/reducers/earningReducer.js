@@ -1,10 +1,13 @@
-import { ADD_EARNING, DELETE_EARNING, RESET_EARNING } from "../actions/earningActions";
+import { ADD_EARNING, DELETE_EARNING,RESET_EARNING } from "../actions/earningActions";
 
 const initialState = {
-  earnings: []
+  earnings: [] 
 };
 
 const earningReducer = (state = initialState, action) => {
+  console.log("earning reducer: ", state);
+  console.log("earning reducer action: ", action);
+
   switch (action.type) {
     case ADD_EARNING:
       return {
@@ -16,14 +19,16 @@ const earningReducer = (state = initialState, action) => {
         ...state,
         earnings: state.earnings.filter((earning) => earning.id !== action.payload)
       };
-    case RESET_EARNING:
-      return {
-        ...state,
-        earnings: []
-      };
+
+      case RESET_EARNING:
+               return {
+                 ...state,
+                 earnings: []
+               };  
     default:
       return state;
   }
 };
 
 export default earningReducer;
+
